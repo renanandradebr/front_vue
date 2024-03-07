@@ -21,7 +21,7 @@ export default {
         { id: 1, label: 'Cadastro de Usuário', color: 'primary', route: '/cadastro', icon: 'mdi-account' },
         { id: 2, label: 'Cadastro de Telefone Fixo', color: 'primary', route: '/cadastro-fixo', icon: 'mdi-phone' },
         { id: 3, label: 'Cadastro de Celular', color: 'primary', route: '/cadastro-celular', icon: 'mdi-cellphone' },
-        { id: 4, label: 'Agenda Telefônica', color: 'primary', route: '/agenda', icon: 'mdi-book' },
+        { id: 4, label: 'Agenda Telefônica', color: 'primary', route: '/agenda-telefonica', icon: 'mdi-book' },
         { id: 5, label: 'Solicitar Backup', color: 'primary', route: '/solicitar-backup', icon: 'mdi-cloud-upload' },
         { id: 6, label: 'Acessar Logs de Usuário', color: 'primary', route: '/logs', icon: 'mdi-history' },
       ],

@@ -1,8 +1,7 @@
 <template>
-    <v-toolbar color='grey' flat >
-
+    <v-toolbar color='grey' >
         <v-row justify="center">
-            <v-col cols="12">
+            <v-col cols="2">
                 <v-spacer></v-spacer>
                 <v-btn text @click="goToRoute('home')">
                     Inicio

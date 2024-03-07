@@ -6,6 +6,8 @@ import Cadastro from '../views/cadastroUsuarioView.vue'
 import AcessoNegado from '../components/AcessoNegado.vue'
 import cadastroLogin from '../components/cadastroLogin.vue'
 import esqueceuSenha from '../views/esqueceuSenha.vue'
+import agendaTelefonica from '@/components/agendaTelefonica.vue'
+
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
@@ -38,6 +40,11 @@ const routes: Array<RouteConfig> = [
     path: '/esqueceu-senha',
     name:'esqueceu senha',
     component: esqueceuSenha
+  },
+  {
+    path: '/agenda-telefonica',
+    name:'Agenda Telefônica',
+    component: agendaTelefonica
   },
   {
     path: '/about',

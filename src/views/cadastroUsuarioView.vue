@@ -3,7 +3,8 @@
    <v-div>
     <HeaderOpções />
    </v-div> 
-    <v-row justify="center">
+   <v-spacer/>
+    <v-row justify="center" class="spacing pa-9">
       <v-col cols="12" sm="8" md="6" class="botoes3">
         <v-card id="formulario1">
           <v-card-title class="text-center">Cadastro de Usuário</v-card-title>
