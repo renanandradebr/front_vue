@@ -2,12 +2,16 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" sm="6" md="4" v-for="button in buttons" :key="button.id" class="text-center">
-        <div class="d-flex flex-column align-center">
-          <v-btn :color="button.color" outlined large @click="goToRoute(button.route)">
-            <v-icon left>{{ button.icon }}</v-icon>
-            {{ button.label }}
-          </v-btn>
-        </div>
+        <v-card>
+          <v-col>
+            <div class="d-flex flex-column align-center">
+              <v-btn :color="button.color" outlined large @click="goToRoute(button.route)">
+                <v-icon left>{{ button.icon }}</v-icon>
+                {{ button.label }}
+              </v-btn>
+            </div>
+          </v-col>
+        </v-card>
       </v-col>
     </v-row>
   </v-container>
@@ -22,8 +26,8 @@ export default {
         { id: 2, label: 'Cadastro de Telefone Fixo', color: 'primary', route: '/cadastro-fixo', icon: 'mdi-phone' },
         { id: 3, label: 'Cadastro de Celular', color: 'primary', route: '/cadastro-celular', icon: 'mdi-cellphone' },
         { id: 4, label: 'Agenda Telefônica', color: 'primary', route: '/agenda-telefonica', icon: 'mdi-book' },
-        { id: 5, label: 'Solicitar Backup', color: 'primary', route: '/solicitar-backup', icon: 'mdi-cloud-upload' },
-        { id: 6, label: 'Acessar Logs de Usuário', color: 'primary', route: '/logs', icon: 'mdi-history' },
+        { id: 5, label: 'Solicitar Backup', color: 'primary', route: '/acesso-negado', icon: 'mdi-cloud-upload' },
+        { id: 6, label: 'Acessar Logs de Usuário', color: 'primary', route: '/acesso-negado', icon: 'mdi-history' },
       ],
     };
   },
